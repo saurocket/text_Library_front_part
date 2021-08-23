@@ -81,7 +81,7 @@ export const FinalFrom = () => {
             Swal.fire({
                 position: 'center',
                 icon: 'success',
-                title: `zamówienie ${idOrder}`,
+                title: `Zamówienie ${idOrder}`,
                 showConfirmButton: false,
                 timer: 4000
             })
@@ -158,7 +158,7 @@ export const FinalFrom = () => {
                     error={!!errors.zipCode}
                     helperText={errors?.zipCode?.message}
                 />
-                <PrimaryButton>Złóż zamówienie</PrimaryButton>
+                <PrimaryButton>ZAMAWIAM I PŁACĘ</PrimaryButton>
             </Form>
             <Box component="span" m={2}>
                 <Button
